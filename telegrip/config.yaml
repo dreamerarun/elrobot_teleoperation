@@ -1,0 +1,15 @@
+control:
+  keyboard:
+    angle_step: 5
+    pos_step: 0.01
+network:
+  host_ip: 0.0.0.0
+  https_port: 8443
+  websocket_port: 8442
+robot:
+  type: elrobot
+  arm:
+    enabled: true
+    name: ElRobot Arm
+    port: /dev/ttyACM0
+  send_interval: 0.05
